@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Title from "./Title";
 
 ReactDOM.render(
-  <h1>An element of the Virtual DOM</h1>,
+  <Title />, //
   document.getElementById("root")
 );
